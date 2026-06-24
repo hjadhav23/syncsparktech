@@ -146,7 +146,7 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
-    text-decoration: none;
+    text-decoration: #030712;
 }
 
 .logo-icon {
@@ -156,20 +156,22 @@ body{
 }
 
 .logo-icon img {
-    width: 60px;      /* Adjust as needed */
-    height: 60px;
+    width: 130px;      /* Adjust as needed */
+    height: 130px;
     object-fit: contain;
     display: block;
+    border-radius: 100%;
+    clip-path: circle(40% at 52% 45%);
 }
 
 .logo-text h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 48px;
 }
 
 .logo-text p {
     margin: 0;
-    font-size: 12px;
+    font-size: 48px;
 }
 .logo-text h3,
 .logo-text p {
