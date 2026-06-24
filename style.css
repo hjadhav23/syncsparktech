@@ -142,54 +142,38 @@ body{
 
 }
 
-.logo{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:15px;
-
-    text-decoration:none;
-
-    color:#fff;
-
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
 }
 
-.logo-icon{
-
-    width:48px;
-    height:48px;
-
-    border-radius:14px;
-
-    background:linear-gradient(
-    135deg,
-    #2563eb,
-    #60a5fa
-    );
-
-    display:flex;
-
-    align-items:center;
-    justify-content:center;
-
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo h3{
-
-    font-size:1.15rem;
-
-    font-weight:800;
-
+.logo-icon img {
+    width: 60px;      /* Adjust as needed */
+    height: 60px;
+    object-fit: contain;
+    display: block;
 }
 
-.logo p{
+.logo-text h3 {
+    margin: 0;
+    font-size: 18px;
+}
 
-    font-size:.8rem;
-
-    opacity:.7;
-
+.logo-text p {
+    margin: 0;
+    font-size: 12px;
+}
+.logo-text h3,
+.logo-text p {
+    color: white;
 }
 
 .nav-menu{
